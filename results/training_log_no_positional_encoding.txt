@@ -1,0 +1,60 @@
+Using device: cuda
+CONFIG: d_model=256, n_layers=6, n_heads=8
+CONFIG: Ablation: USE_PE=False, USE_RES=True
+Vocabulary size: 32100
+PAD token ID: 0
+Model initialized. Total parameters: 35,745,124
+--- Starting Training ---
+Epoch: 01 | Time: 1m 58s
+	Train Loss: 9.8017 | Val. Loss: 8.8818
+	Best model saved (Val. Loss: 8.8818).
+Epoch: 02 | Time: 1m 57s
+	Train Loss: 7.7400 | Val. Loss: 6.8856
+	Best model saved (Val. Loss: 6.8856).
+Epoch: 03 | Time: 1m 53s
+	Train Loss: 6.4190 | Val. Loss: 6.2578
+	Best model saved (Val. Loss: 6.2578).
+Epoch: 04 | Time: 1m 56s
+	Train Loss: 5.9143 | Val. Loss: 5.9743
+	Best model saved (Val. Loss: 5.9743).
+Epoch: 05 | Time: 1m 58s
+	Train Loss: 5.6205 | Val. Loss: 5.8402
+	Best model saved (Val. Loss: 5.8402).
+Epoch: 06 | Time: 1m 57s
+	Train Loss: 5.4024 | Val. Loss: 5.7293
+	Best model saved (Val. Loss: 5.7293).
+Epoch: 07 | Time: 1m 57s
+	Train Loss: 5.2244 | Val. Loss: 5.6484
+	Best model saved (Val. Loss: 5.6484).
+Epoch: 08 | Time: 1m 56s
+	Train Loss: 5.0700 | Val. Loss: 5.5672
+	Best model saved (Val. Loss: 5.5672).
+Epoch: 09 | Time: 1m 54s
+	Train Loss: 4.9344 | Val. Loss: 5.5411
+	Best model saved (Val. Loss: 5.5411).
+Epoch: 10 | Time: 1m 57s
+	Train Loss: 4.8121 | Val. Loss: 5.5230
+	Best model saved (Val. Loss: 5.5230).
+Epoch: 11 | Time: 1m 57s
+	Train Loss: 4.7033 | Val. Loss: 5.5171
+	Best model saved (Val. Loss: 5.5171).
+Epoch: 12 | Time: 1m 57s
+	Train Loss: 4.6015 | Val. Loss: 5.5039
+	Best model saved (Val. Loss: 5.5039).
+Epoch: 13 | Time: 1m 58s
+	Train Loss: 4.5133 | Val. Loss: 5.5212
+Epoch: 14 | Time: 1m 55s
+	Train Loss: 4.4335 | Val. Loss: 5.5323
+Epoch: 15 | Time: 1m 56s
+	Train Loss: 4.3615 | Val. Loss: 5.5401
+Epoch: 16 | Time: 1m 56s
+	Train Loss: 4.2995 | Val. Loss: 5.5663
+Epoch: 17 | Time: 1m 58s
+	Train Loss: 4.2480 | Val. Loss: 5.5928
+Epoch: 18 | Time: 1m 58s
+	Train Loss: 4.2032 | Val. Loss: 5.6078
+Epoch: 19 | Time: 1m 57s
+	Train Loss: 4.1715 | Val. Loss: 5.6131
+Epoch: 20 | Time: 1m 53s
+	Train Loss: 4.1498 | Val. Loss: 5.6229
+--- Finished Training ---

@@ -1,0 +1,68 @@
+Using device: cuda
+CONFIG: d_model=256, n_layers=6, n_heads=8
+CONFIG: Ablation: USE_PE=True, USE_RES=True
+Vocabulary size: 32100
+PAD token ID: 0
+Model initialized. Total parameters: 35,745,124
+--- Starting Training ---
+Epoch: 01 | Time: 3m 14s
+	Train Loss: 8.8108 | Val. Loss: 6.9392
+	Best model saved (Val. Loss: 6.9392).
+Epoch: 02 | Time: 3m 14s
+	Train Loss: 6.4325 | Val. Loss: 6.2977
+	Best model saved (Val. Loss: 6.2977).
+Epoch: 03 | Time: 5m 45s
+	Train Loss: 6.0086 | Val. Loss: 6.0675
+	Best model saved (Val. Loss: 6.0675).
+Epoch: 04 | Time: 3m 55s
+	Train Loss: 5.7661 | Val. Loss: 5.9095
+	Best model saved (Val. Loss: 5.9095).
+Epoch: 05 | Time: 3m 14s
+	Train Loss: 5.5893 | Val. Loss: 5.8074
+	Best model saved (Val. Loss: 5.8074).
+Epoch: 06 | Time: 3m 9s
+	Train Loss: 5.4487 | Val. Loss: 5.6998
+	Best model saved (Val. Loss: 5.6998).
+Epoch: 07 | Time: 3m 13s
+	Train Loss: 5.3306 | Val. Loss: 5.6010
+	Best model saved (Val. Loss: 5.6010).
+Epoch: 08 | Time: 3m 20s
+	Train Loss: 5.2279 | Val. Loss: 5.5382
+	Best model saved (Val. Loss: 5.5382).
+Epoch: 09 | Time: 3m 23s
+	Train Loss: 5.1415 | Val. Loss: 5.5013
+	Best model saved (Val. Loss: 5.5013).
+Epoch: 10 | Time: 3m 14s
+	Train Loss: 5.0660 | Val. Loss: 5.4528
+	Best model saved (Val. Loss: 5.4528).
+Epoch: 11 | Time: 3m 20s
+	Train Loss: 4.9994 | Val. Loss: 5.3979
+	Best model saved (Val. Loss: 5.3979).
+Epoch: 12 | Time: 3m 21s
+	Train Loss: 4.9410 | Val. Loss: 5.3731
+	Best model saved (Val. Loss: 5.3731).
+Epoch: 13 | Time: 3m 21s
+	Train Loss: 4.8894 | Val. Loss: 5.3628
+	Best model saved (Val. Loss: 5.3628).
+Epoch: 14 | Time: 3m 20s
+	Train Loss: 4.8426 | Val. Loss: 5.3139
+	Best model saved (Val. Loss: 5.3139).
+Epoch: 15 | Time: 3m 25s
+	Train Loss: 4.8039 | Val. Loss: 5.2846
+	Best model saved (Val. Loss: 5.2846).
+Epoch: 16 | Time: 3m 26s
+	Train Loss: 4.7694 | Val. Loss: 5.2727
+	Best model saved (Val. Loss: 5.2727).
+Epoch: 17 | Time: 3m 17s
+	Train Loss: 4.7390 | Val. Loss: 5.2637
+	Best model saved (Val. Loss: 5.2637).
+Epoch: 18 | Time: 3m 21s
+	Train Loss: 4.7166 | Val. Loss: 5.2569
+	Best model saved (Val. Loss: 5.2569).
+Epoch: 19 | Time: 3m 26s
+	Train Loss: 4.6966 | Val. Loss: 5.2481
+	Best model saved (Val. Loss: 5.2481).
+Epoch: 20 | Time: 3m 22s
+	Train Loss: 4.6858 | Val. Loss: 5.2456
+	Best model saved (Val. Loss: 5.2456).
+--- Finished Training ---
