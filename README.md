@@ -38,7 +38,7 @@ zpj_25110166/
    conda activate llm_midterm
    ```
    
-2. 安装 Python 依赖
+2. **安装 Python 依赖**
 
    克隆仓库后，使用 requirements.txt 文件一键安装所有依赖：
 
