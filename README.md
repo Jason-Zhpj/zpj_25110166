@@ -9,7 +9,7 @@
 本仓库遵循标准的机器学习项目结构：
 
 ```
-zpj_25110166-main/
+zpj_25110166/
 |-- README.md               # 本项目说明
 |-- requirements.txt        # Python 依赖包列表
 |-- models/
@@ -33,13 +33,11 @@ zpj_25110166-main/
 
 1. **创建并激活 Conda 环境**
 
-   Bash
-
    ```
    conda create -n llm_midterm python=3.10
    conda activate llm_midterm
    ```
-
+   
 2. 安装 Python 依赖
 
    克隆仓库后，使用 requirements.txt 文件一键安装所有依赖：
